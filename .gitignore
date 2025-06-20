@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+.env
+.flaskenv
+
+# Python env management
+*.env
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pytest
+.cache/
+.pytest_cache/
+
+
+# Coverage reports
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+
+# Flask-related
+instance/
+*.db
+*.sqlite3
+
+# IDEs/editors
+.vscode/__pycache__/
+**/__pycache__/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
