@@ -10,6 +10,11 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+### Create .env and add these environment variables 
+```
+export FLASK_APP=app.py
+export FLASK_APP=cv_app.core.cli
+```
 
 ### To run server
 ```
